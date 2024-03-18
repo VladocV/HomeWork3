@@ -1,10 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-from sklearn.preprocessing import StandardScaler
 
 X = 2 * np.random.rand(100, 1)  
 y = 4 + 3 * X + np.random.randn(100, 1)
